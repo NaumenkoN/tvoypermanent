@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="/style.css" />
+        <link rel="icon" type="image/png" href="/img/eyebrow-pencil.png" />
+        <title>Мастер Перманентного Макияжа</title>
+        <script defer src="/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <div>
+                    <h1 class="master-name">Anna Master</h1>
+                </div>
+
+                <ul class="nav-bar-items">
+                    <li id="price" class="nav-bar-item"><a href="#section-4" class="nav-bar-link">Цены</a></li>
+                    <li id="contacts" class="nav-bar-item"><a href="" class="nav-bar-link contacts">Контакты</a></li>
+                    <li class="nav-bar-item"><a href="#section-2" class="nav-bar-link">Обо мне</a></li>
+                    <li class="nav-bar-item"><a href="#section-3" class="nav-bar-link">Мои работы</a></li>
+                    <li class="nav-bar-item"><a href="" class="nav-bar-link appoinment">Записаться</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="section section-main" id="secion-1">
+                <div class="main-info">
+                    <div class="mobile-photo">
+                        <img src="/img/main-mobile.jpg" alt="personal-photo" />
+                        <h2>Дулаева Анна</h2>
+                        <h4>мастер перманентного макияжа</h4>
+                    </div>
+
+                    <!-- <h2>
+                        Меня зовут Анна и ты попала в мой маленький мир перманентного макияжа, в котором я подчеркиваю женскую красоту.<br />
+                        
+                    </h2> -->
+
+                    <button class="btn-about btn--scroll-to">Больше обо мне &darr;</button>
+                    <button type="button" class="appoinment-button appoinment">Записаться</button>
+                </div>
+            </section>
+            <div id="section-2"></div>
+            <section class="section section-about">
+                <div class="section--about-content">
+                    <div class="about--text-mobile">
+                        <h1>Обо мне</h1>
+                        <p>
+                            Я сертифицированный мастер по перманентному макияжу:<br /><br />- бровей<br />- губ <br />- межресничного пространства.
+                            <br />
+                            <br />Мой подход всегда индивидуален, поэтому я буду стараться сохранить твои неповторимые черты лица, создав естественный
+                            и ухоженный образ. <br />
+                            <br />Имею в запасе среднее медицинское образование, поэтому всегда соблюдаю санитарно-эпидемиологические нормы и
+                            требования, предьявляемые к процедуре, не провожу ее при имеющихся противопоказаниях, чтобы не навредить.
+                        </p>
+                        <button type="button" class="appoinment-button appoinment">Записаться</button>
+                    </div>
+                    <ul class="grid">
+                        <li class="grid-items">
+                            <a href="/img/AehJjKvrFMc.jpg" target="_blank"><img src="/img/AehJjKvrFMc.jpg" loading="lazy" alt="sertificate" /></a>
+                        </li>
+                        <li class="grid-items">
+                            <a href="/img/TGig9CEc8-Q.jpg" target="_blank"><img loading="lazy" src="/img/TGig9CEc8-Q.jpg" alt="sertificate" /></a>
+                        </li>
+                        <li class="grid-items">
+                            <a href="/img/tJ1onswPY_g.jpg" target="_blank"><img src="/img/tJ1onswPY_g.jpg" alt="sertificate" /></a>
+                        </li>
+                        <li class="grid-items">
+                            <a href="/img/IMG_8799.JPG" target="_blank"><img loading="lazy" src="/img/IMG_8799.JPG" alt="sertificate" /></a>
+                        </li>
+                    </ul>
+                    <div class="about-text">
+                        <h1>Обо мне</h1>
+                        <p class="about--text-main">
+                            Я сертифицированный мастер по перманентному макияжу:<br /><br />- бровей<br />- губ <br />- межресничного пространства.
+                            <br />
+                            <br />Мой подход всегда индивидуален, поэтому я буду стараться сохранить твои неповторимые черты лица, создав естественный
+                            и ухоженный образ. <br />
+                            <br />Имею в запасе среднее медицинское образование, поэтому всегда соблюдаю санитарно-эпидемиологические нормы и
+                            требования, предьявляемые к процедуре, не провожу ее при имеющихся противопоказаниях, чтобы не навредить.
+                            <button type="button" class="appoinment-button appoinment">Записаться</button>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div id="section-3"></div>
+            <section class="section section-works">
+                <h1>Мои работы</h1>
+                <div class="slider">
+                    <div class="slide"><img src="/img/imgw3.jpg" alt="tatu" /></div>
+                    <div class="slide"><img src="/img/img4.jpg" alt="tatu" /></div>
+                    <div class="slide"><img src="/img/imgw1.png" alt="tatu" /></div>
+                    <div class="slide"><img src="/img/imgw2.jpg" alt="tatu" /></div>
+                    <button class="slider__btn slider__btn--left">&larr;</button>
+                    <button class="slider__btn slider__btn--right">&rarr;</button>
+                    <div class="dots"></div>
+                </div>
+            </section>
+
+            <div id="section-4"></div>
+            <section class="section section-price">
+                <h1>Цены</h1>
+                <div class="prices">
+                    <p class="price">Перманентный макияж бровей</p>
+                    <span class="span">от 4000р</span>
+
+                    <p class="price">Перманентный макияж век</p>
+                    <span class="span">от 3000р</span>
+                    <p class="price">Перманентный макияж губ</p>
+                    <span class="span">от 4000р</span>
+                    <p class="price">Коррекция (через месяц)</p>
+                    <span class="span">1500р</span>
+                    <p class="price">Консультация бесплатно</p>
+                </div>
+                <button type="button" class="appoinment-button appoinment">Записаться</button>
+            </section>
+        </main>
+
+        <div class="modal-window hidden">
+            <button class="btn--close-modal-window">&times;</button>
+            <h1 class="modal-header">Запишитесь в пару кликов</h1>
+            <p class="notice">
+                Если вы хотите получить обратную связь максимально быстро,<br />свяжитесь со мной одним из удобных способов,
+                <a href="" class="contacts">нажав сюда</a>
+            </p>
+            <form class="modal__form">
+                <label>Имя</label>
+                <input class="name" type="text" placeholder="имя" />
+                <label>Телефон</label>
+                <input class="tel" type="tel" placeholder="телефон" />
+                <label>Email</label>
+                <input class="email" type="email" placeholder="email" />
+                <button class="btn" type="submit">Записаться &rarr;</button>
+            </form>
+        </div>
+
+        <div class="modal-window-2 hidden">
+            <button class="btn--close-modal-window">&times;</button>
+            <h1 class="modal-header-2">контакты</h1>
+            <div class="modal--contact-info">
+                <div class="modal--contact-item">
+                    <a href="https://www.instagram.com/annet_0003/"> <img src="/img/instagram.png" alt="instagram" /> </a>
+                </div>
+                <div class="modal--contact-item">
+                    <a href="https://t.me/avealu"><img src="/img/telegram.png" alt="telegram_messenger" /></a>
+                </div>
+                <div class="modal--contact-item">
+                    <a href="https://wa.me/+79046441446"><img src="/img/whatsapp.png" alt="whatsApp" /></a>
+                </div>
+                <div class="modal--contact-item">
+                    <a href="tel:+79046441446"><img src="/img/phone-call.png" alt="phone number" /></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay hidden"></div>
+
+        <footer>
+            <div class="footer-item">
+                <a href="https://www.instagram.com/annet_0003/" target="_blank"> <img src="/img/instagram.png" alt="instagram" /> </a>
+            </div>
+            <div class="footer-item">
+                <a href="https://t.me/avealu" target="_blank"><img src="/img/telegram.png" alt="telegram_messenger" /></a>
+            </div>
+            <div class="footer-item">
+                <a href="https://wa.me/+79046441446" target="_blank"><img src="/img/whatsapp.png" alt="whatsApp" /></a>
+            </div>
+            <div class="footer-item">
+                <a href="tel:+79046441446"><img src="/img/phone-call.png" alt="phone number" /></a>
+            </div>
+        </footer>
+    </body>
+</html>
