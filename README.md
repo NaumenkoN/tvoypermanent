@@ -1,59 +1,62 @@
-<h1 align="center">My Travel Website.</h1>
-<p align="center"><a href="https://lostify.org">https://toseeworld.net</a></p><br/><br/>
+<h1 align="center">Beauty Master Website.</h1>
+<p align="center"><a href="https://lostify.org">https://tvoypermanent.ru</a></p><br/><br/>
 
 
-# Idea
-
-Since I started learning web development, I needed to create my own projects to practice my acquired skills in HTTL, CSS and JavaScript. And since I love to travel and create photo and video content, it was decided to make a website where I could publish my material.<br/>
+# Purpouse
+This is the first website I made myself. It was made by order of one of my friends.
+<br/>
 
 # About the development of this project
 
-Website development is quite simple in its implementation. I used native JavaScript, HTML and CSS. The site contains several main pages such as: home, about me and the page of all the countries I visited, where by clicking on a specific country, you can see photos and video material from the corresponding country. The photos are posted locally on the hosting, and for the video I used a link from YouTube. To view photos, a beautiful slider was implemented, as well as a local language change using JavaScript. I used an image as a background and of course I regretted it many times, since it had a lot of problems and on small screens I implemented a gradient on some pages. I tried to make it as responsive as possible according to the most popular breakpoints, but on some pages, in some points you can still see imperfections.
+This is a typical landing page website written in HTTL, CSS and JavaScript. Smooth scrolling is implemented here by pressing various buttons. Smooth appearance of different sections of the site as you scroll down the site. Sticky navbar. A module with a photo gallery and a couple of modal windows with contacts and registration for procedures. It should be noted that the registration itself is not real, since this is a serverless static website.
 
 <br/><br/>
 
 
 
 
-# Home
+# Section Main
 
-<img src="https://github.com/NaumenkoN/toseeworld/assets/114875059/7f3654ff-c897-4c26-b3e6-c6d263e27d65" width="100%" />
+
+<img src="https://github.com/NaumenkoN/tvoypermanent/assets/114875059/f1700c18-0bd4-4dc3-9789-c10974b9fecb" width="100%" />
 <br/>
-<img src="https://github.com/NaumenkoN/toseeworld/assets/114875059/df4c5705-a4d4-4f54-9f40-0835afed57d0" width="100%" />
 
 
 
 
-# About
 
-![about](https://github.com/NaumenkoN/toseeworld/assets/114875059/31fe46a5-a229-4351-b169-dea544d90754)
-![about-2](https://github.com/NaumenkoN/toseeworld/assets/114875059/baf2b85e-6603-43d5-bb3c-a7e385746565)
+# Section About
+
+
+
+![about-2](https://github.com/NaumenkoN/tvoypermanent/assets/114875059/f0ea79fc-c223-4d8a-878b-2e1b8c0eb92d)
 
 
 <br/><br/>
 
-# Countries
+# Section Works
+![portfolio](https://github.com/NaumenkoN/tvoypermanent/assets/114875059/91b4d65a-6c12-4e8a-a7f2-62ca7c02f051)
 
-![countries](https://github.com/NaumenkoN/toseeworld/assets/114875059/60fd61f4-8f07-4c25-b8bb-9608b379c5e4)
 
 
-br/><br/>
 
-# Content
-![photo](https://github.com/NaumenkoN/toseeworld/assets/114875059/61da0691-d0e2-44f5-bbc3-5b38eb993b05)
-![video](https://github.com/NaumenkoN/toseeworld/assets/114875059/0df7abb2-cde2-40a3-ac9e-2cc66072c597)
+<br/><br/>
+
+# Section Prices and Footer with Contacts
+
+![prices](https://github.com/NaumenkoN/tvoypermanent/assets/114875059/4b9e66d3-528d-48c9-81a0-905f3c56c640)
+
+
 
 <br/><br/>
 
 # Mobile
 
 
-<p align="center">
-<img  src="https://github.com/NaumenkoN/toseeworld/assets/114875059/85efe340-c523-428b-a514-41de71037638" width="24%" />
-  <img  src="https://github.com/NaumenkoN/toseeworld/assets/114875059/b188f93d-b81f-45a9-ac96-8a3cf31e739e" width="24%" />
-  <img  src="https://github.com/NaumenkoN/toseeworld/assets/114875059/56fb6b57-0a33-4a3d-ad48-04aeb21632de" width="24%" />
-    <img  src="https://github.com/NaumenkoN/toseeworld/assets/114875059/fd371c77-1911-4e3a-9221-ca3f55c75d5a" width="24%" />
-</p>
+
+  https://github.com/NaumenkoN/tvoypermanent/assets/114875059/f7388829-baa7-48be-9b52-1f93fbdb5fae
+
+
 
 <br/><br/>
 
@@ -61,7 +64,7 @@ br/><br/>
 
 # Conclusion
 
-Despite the fact that the site is not without flaws based on modern trends in development and design. It's quite suitable as a pet project.
+Despite the simplicity of the idea, its implementation gave me good practical experience in development. And although these are only the first steps, it is good if these steps are in the right direction. The client was satisfied.
 
 
 
